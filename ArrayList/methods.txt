@@ -1,0 +1,15 @@
+Methods of arrayList
+size of list = list.size()
+add element = list.add(value)
+add at particular index = list.add(index,value) //it will not overrite ,
+                                                just placed the value and shift existing values)
+get element = list.get(index)
+remove element = list.remove(index)
+set element at index = list.set(index,value) //it will overrite the existing value of that index
+contains element = list.contains(value) //bool return
+
+sorting an arrayList
+
+Collections.sort(list)  or
+
+Collections.sort(list,Collections.reverseOrder())
